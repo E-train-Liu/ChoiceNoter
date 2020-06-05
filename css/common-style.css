@@ -10,6 +10,7 @@ body {
 
 
 .button {
+    display: inline-block;
     border: 1.8px solid rgb(29,0,116);
     border-radius: 0px;
     color: rgb(29,0,116);
@@ -63,6 +64,7 @@ body {
 
 
 .input {
+    display: inline-block;
     border: 1.8px solid rgb(190,190,190);
     padding: 0.3em 0.4em;
     margin: 0.1em;
@@ -81,6 +83,7 @@ body {
 
 
 .select {
+    display: inline-block;
     border: 1.8px solid rgb(190,190,190);
     padding: 0.28em 0.36em;
     margin: 0.1em;
@@ -112,12 +115,11 @@ body {
 
 .top-bar {
     box-sizing: border-box;
-    width: 100%;
-    padding: 0.5em 0.8em;
     background-color: rgb(29,0,116);
     background-image: -webkit-linear-gradient(left, rgb(29,0,116), rgb(231,8,163));
     background-image: -o-linear-gradient(left, rgb(29,0,116), rgb(231,8,163));
     background-image: -moz-linear-gradient(left,  rgb(29,0,116), rgb(231,8,163));
+    background-image: -ms-linear-gradient(left,  rgb(29,0,116), rgb(231,8,163));
     background-image: linear-gradient(to right, rgb(29,0,116), rgb(231,8,163));
     color: white;
 }
@@ -133,4 +135,14 @@ body {
 .button.top-bar__widget:active {
     background-color: rgb(220,220,220);
     border-color: rgb(220,220,220);
+}
+
+h1.title, h2.title, h3.title {
+    font-weight: normal;
+}
+h1.title {
+    text-align: center;
+}
+h2.title {
+    border-bottom: 1.8px solid rgb(190,190,190);
 }
