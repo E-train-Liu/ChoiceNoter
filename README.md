@@ -1,3 +1,5 @@
+# !!! WARNING: THIS PROJECT HAVE NOT BEEN FINISHED. DO NOT USE NOW. !!!
+
 # Choice Noter
 
 ## Introduction
