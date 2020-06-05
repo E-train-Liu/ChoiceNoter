@@ -1,0 +1,136 @@
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Nimbus Sans L', 'Arial', 'Liberation Sans', 'Roboto', sans-serif;
+}
+
+
+::selection {
+    background-color: rgb(229,0,118);
+    color: white;
+}
+
+
+.button {
+    border: 1.8px solid rgb(29,0,116);
+    border-radius: 0px;
+    color: rgb(29,0,116);
+    background-color: white;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    padding: 0.3em 0.4em;
+    margin: 0.1em;
+}
+.button:hover {
+    /* border-color: rgb(45,0,180);
+    color: rgb(45,0,180);
+    */
+    background-color: rgb(29,0,116);
+    color: white;
+}
+.button:active {
+    background-color: rgb(45,0,180);
+    border-color: rgb(45,0,180);
+    color: white;
+}
+.button.normal {}
+.button.prime {
+    border-color: rgb(229,0,118);
+    color: rgb(229,0,118);
+}
+.button.prime:hover {
+    background-color: rgb(229,0,118);
+    color: white;
+}
+.button.prime:active {
+    background-color: rgb(255,0,149);
+    border-color: rgb(255,0,149);
+    color: white;
+}
+
+
+.link {
+    color: rgb(29,0,116);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.link:hover {
+    color: rgb(45,0,180);
+}
+.link:active {
+    color: rgb(229,0,118);
+}
+
+
+.input {
+    border: 1.8px solid rgb(190,190,190);
+    padding: 0.3em 0.4em;
+    margin: 0.1em;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 0px;
+    outline: none;
+    background-color: transparent;
+}
+.input:hover {
+    border-color: rgb(160,160,160);
+}
+.input:focus {
+    border-color: rgb(229,0,118);
+}
+
+
+.select {
+    border: 1.8px solid rgb(190,190,190);
+    padding: 0.28em 0.36em;
+    margin: 0.1em;
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 0px;
+    outline: none;
+}
+.select:hover {
+    border-color: rgb(160,160,160);
+}
+.select:focus {
+    border-color: rgb(229,0,118);
+}
+.select option {
+    padding: 0.3em;
+    font-family: 'Helvetica', 'Arial';
+    font-size: inherit;
+}
+.select option::selection {
+    background-color: rgb(29,0,116);
+    color: white;
+}
+.select option:hover {
+    background-color: rgb(229,0,118);
+    color: white;
+}
+
+
+.top-bar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5em 0.8em;
+    background-color: rgb(29,0,116);
+    background-image: -webkit-linear-gradient(left, rgb(29,0,116), rgb(231,8,163));
+    background-image: -o-linear-gradient(left, rgb(29,0,116), rgb(231,8,163));
+    background-image: -moz-linear-gradient(left,  rgb(29,0,116), rgb(231,8,163));
+    background-image: linear-gradient(to right, rgb(29,0,116), rgb(231,8,163));
+    color: white;
+}
+.top-bar__widget {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.button.top-bar__widget:hover {
+    background-color: white;
+    color: rgb(29,0,116);
+}
+.button.top-bar__widget:active {
+    background-color: rgb(220,220,220);
+    border-color: rgb(220,220,220);
+}
