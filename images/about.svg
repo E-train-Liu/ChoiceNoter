@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path 
+        d="
+            M 50 10
+            A 40 40 0 0 1 50 90
+            A 40 40 0 0 1 50 10
+            M 50 20
+            A 5 5 0 0 0 50 30
+            A 5 5 0 0 0 50 20
+            M 46 40
+            L 46 80
+            L 54 80
+            L 54 40
+            Z" 
+        fill="rgb(160,160,160)"
+        stroke="none" />
+</svg>
